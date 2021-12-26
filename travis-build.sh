@@ -3,7 +3,9 @@
 # Add xanmod repo
 
 echo 'deb http://deb.xanmod.org releases main' | sudo tee /etc/apt/sources.list.d/xanmod-kernel.list
-wget -qO - https://dl.xanmod.org/gpg.key | sudo apt-key --keyring /etc/apt/trusted.gpg.d/xanmod-kernel.gpg add -
+
+apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 86F7D09EE734E623
+
 sudo apt update
 
 # Download files
