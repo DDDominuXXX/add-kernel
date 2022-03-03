@@ -15,7 +15,7 @@ sudo apt update
 	cd files
 
 	apt download \
-		linux-headers-5.15.25-xanmod1 \
-		linux-image-5.15.25-xanmod1
+		linux-headers-5.15.26-xanmod1 \
+		linux-image-5.15.26-xanmod1
 )
 
